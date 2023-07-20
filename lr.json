@@ -1,0 +1,14 @@
+{
+  "state": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+  "action": {
+    "+": [null, "s5", "r2", "r4", "r5", null, null, "r1", "r3"],
+    "*": [null, null, "s6", "r4", "r5", null, null, "s6", "r3"],
+    "id": ["s4", null, null, null, null, "s4", "s4", null, null],
+    "$": [null, "acc", "r2", "r4", "r5", null, null, "r1", "r3"]
+  },
+  "goto": {
+    "E": [1, null, null, null, null, null, null, null, null],
+    "T": [2, null, null, null, null, 7, null, null, null],
+    "F": [3, null, null, null, null, 3, 8, null, null]
+  }
+}
